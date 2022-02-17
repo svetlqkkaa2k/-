@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+	<title>Electro Store</title>
+	<!-- Meta tag Keywords -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8" />
+	<script>
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	<!-- //Meta tag Keywords -->
+
+	<!-- Custom-Files -->
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- Bootstrap css -->
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- Main css -->
+	<link rel="stylesheet" href="css/fontawesome-all.css">
+	<!-- Font-Awesome-Icons-CSS -->
+	<link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- pop-up-box -->
+	<link href="css/menu.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- menu style -->
+	<!-- //Custom-Files -->
+
+	<!-- web fonts -->
+	<link href="//fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&amp;subset=latin-ext" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese"
+	    rel="stylesheet">
+	<!-- //web fonts -->
+
+</head>
+
+<body>
+	<!-- top-header -->
+	<div class="agile-main-top">
+		<div class="container-fluid">
+			<div class="row main-top-w3l py-2">
+				<div class="col-lg-4 header-most-top">
+					<p class="text-white text-lg-left text-center">Grand oppening & Discounts
+						<i class="fas fa-shopping-cart ml-1"></i>
+					</p>
+				</div>
+				<div class="col-lg-8 header-right mt-lg-0 mt-2">
+					<!-- header lists -->
+					<ul>
+						<li class="text-center border-right text-white">
+							<a class="play-icon popup-with-zoom-anim text-white" href="#small-dialog1">
+								<i class="fas fa-map-marker mr-2"></i>Select Location</a>
+						</li>
+						
+						</li>
+						<li class="text-center border-right text-white">
+							<i class="fas fa-phone mr-2"></i> +359 8998413333
+						</li>
+
+					</ul>
+					<!-- //header lists -->
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Button trigger modal(select-location) -->
+	<div id="small-dialog1" class="mfp-hide">
+		<div class="select-city">
+			<h3>
+				<i class="fas fa-map-marker"></i> Please Select Your Location</h3>
+			<select class="list_of_cities">
+				<optgroup label="Bulgaria">
+					<option selected style="display:none;color:#eee;">Select City</option>
+					<option>Sofia</option>
+					<option>Varna</option>
+					<option>Burgas</option>
+					<option>Plovdiv</option>
+					<option>Ruse</option>
+					<option>Razgard</option>
+					<option>Turgovishte</option>
+					<option>Veliko Tarnovo</option>
+					<option>Shumen</option>
+					<option>Vraca</option>
+					<option>Nesebar</option>
+					<option>Pazardjik</option>
+					<option>Pleven</option>
+				</optgroup>
+				<optgroup label="USA">
+					<option>New York</option>
+					<option>Chicago</option>
+					<option>Los Angeles</option>
+					<option>Phoenix</option>
+					<option>Philadelphia</option>
+				</optgroup>
+				<optgroup label="Russia">
+					<option>Moscow</option>
+					<option>Saint Petersburg</option>
+					<option>Novosibirsk</option>
+					<option>Yekaterinburg</option>
+					<option>Chelyabinks</option>
+				</optgroup>
+				<optgroup label="China">
+					<option>Shanghai</option>
+					<option>Beijing</option>
+					<option>Chongqing</option>
+					<option>Tianjin</option>
+					<option>Guangzhou</option>
+				</optgroup>
+				<optgroup label="Ukraine">
+					<option>Kyiv</option>
+					<option>Kharkiv</option>
+					<option>Donetsk</option>
+					<option>Odessa</option>
+					<option>Dnipro</option>
+				</optgroup>
+				<optgroup label="India">
+					<option>Mumbai</option>
+					<option>Delhi</option>
+					<option>Bangalore</option>
+					<option>Hyderabad</option>
+					<option>Ahmedabad</option>
+				</optgroup>
+				<optgroup label="Brazil">
+					<option>São Paulo</option>
+					<option>Rio de Janeiro</option>
+					<option>Brasília</option>
+					<option>Salvador</option>
+					<option>Fortaleza</option>
+				</optgroup>
+				<optgroup label="UK">
+					<option>London</option>
+					<option>Manchester</option>
+					<option>Birmingham</option>
+					<option>Leeds</option>
+					<option>Sheffield</option>
+				</optgroup>
+				<optgroup label="Delaware">
+					<option>Wilmington</option>
+					<option>Dover</option>
+					<option>Newark</option>
+					<option>Bear</option>
+					<option>Middletown</option>
+				</optgroup>
+				<optgroup label="Hawaii">
+					<option>Honolulu</option>
+					<option>Pearl City</option>
+					<option>Hilo</option>
+					<option>Kailua</option>
+					<option>Waipahu</option>
+				</optgroup>
+				<optgroup label="Kansas">
+					<option>Wichita</option>
+					<option>Overland Park</option>
+					<option>Kansas City</option>
+					<option>Topeka</option>
+					<option>Olathe </option>
+				</optgroup>
+				<optgroup label="Louisiana">
+					<option>New Orleans</option>
+					<option>Baton Rouge</option>
+					<option>Shreveport</option>
+					<option>Metairie</option>
+					<option>Lafayette</option>
+				</optgroup>
+				<optgroup label="Maine">
+					<option>Portland</option>
+					<option>Lewiston</option>
+					<option>Bangor</option>
+					<option>South Portland</option>
+					<option>Auburn</option>
+				</optgroup>
+				<optgroup label="Maryland">
+					<option>Baltimore</option>
+					<option>Frederick</option>
+					<option>Rockville</option>
+					<option>Gaithersburg</option>
+					<option>Bowie</option>
+				</optgroup>
+				<optgroup label="Michigan">
+					<option>Detroit</option>
+					<option>Grand Rapids</option>
+					<option>Warren</option>
+					<option>Sterling Heights</option>
+					<option>Lansing</option>
+				</optgroup>
+				<optgroup label="Mississippi">
+					<option>Jackson</option>
+					<option>Gulfport</option>
+					<option>Southaven</option>
+					<option>Hattiesburg</option>
+					<option>Biloxi</option>
+				</optgroup>
+				<optgroup label="Missouri">
+					<option>Kansas City</option>
+					<option>St. Louis</option>
+					<option>Springfield</option>
+					<option>Independence</option>
+					<option>Columbia</option>
+				</optgroup>
+				<optgroup label="Nebraska">
+					<option>Omaha</option>
+					<option>Lincoln</option>
+					<option>Bellevue</option>
+					<option>Grand Island</option>
+					<option>Kearney</option>
+				</optgroup>
+				<optgroup label="Nevada">
+					<option>Las Vegas</option>
+					<option>Henderson</option>
+					<option>North Las Vegas</option>
+					<option>Reno</option>
+					<option>Sunrise Manor</option>
+				</optgroup>
+				<optgroup label="New Mexico">
+					<option>Albuquerque</option>
+					<option>Las Cruces</option>
+					<option>Rio Rancho</option>
+					<option>Santa Fe</option>
+					<option>Roswell</option>
+				</optgroup>
+				<optgroup label="North Carolina">
+					<option>Charlotte</option>
+					<option>Raleigh</option>
+					<option>Greensboro</option>
+					<option>Winston-Salem</option>
+					<option>Durham</option>
+				</optgroup>
+				<optgroup label="North Dakota">
+					<option>Fargo</option>
+					<option>Bismarck</option>
+					<option>Grand Forks</option>
+					<option>Minot</option>
+					<option>West Fargo</option>
+				</optgroup>
+				<optgroup label="Ohio">
+					<option>Columbus</option>
+					<option>Cleveland</option>
+					<option>Cincinnati</option>
+					<option>Toledo</option>
+					<option>Akron</option>
+				</optgroup>
+				<optgroup label="Oklahoma">
+					<option>Oklahoma City</option>
+					<option>Tulsa</option>
+					<option>Norman</option>
+					<option>Broken Arrow</option>
+					<option>Lawton</option>
+				</optgroup>
+				<optgroup label="Oregon">
+					<option>Portland</option>
+					<option>Eugene</option>
+					<option>Salem</option>
+					<option>Gresham</option>
+					<option>Hillsboro</option>
+				</optgroup>
+				<optgroup label="Pennsylvania">
+					<option>Philadelphia</option>
+					<option>Pittsburgh</option>
+					<option>Allentown</option>
+					<option>Erie</option>
+					<option>Reading</option>
+				</optgroup>
+				<optgroup label="South Carolina">
+					<option>Columbia</option>
+					<option>Charleston</option>
+					<option>North Charleston</option>
+					<option>Mount Pleasant</option>
+					<option>Rock Hill</option>
+				</optgroup>
+				<optgroup label="South Dakota">
+					<option>Sioux Falls</option>
+					<option>Rapid City</option>
+					<option>Aberdeen</option>
+					<option>Brookings</option>
+					<option>Watertown</option>
+				</optgroup>
+				<optgroup label="Tennessee">
+					<option>Memphis</option>
+					<option>Nashville</option>
+					<option>Knoxville</option>
+					<option>Chattanooga</option>
+					<option>Clarksville</option>
+				</optgroup>
+				<optgroup label="Texas">
+					<option>Houston</option>
+					<option>San Antonio</option>
+					<option>Dallas</option>
+					<option>Austin</option>
+					<option>Fort Worth</option>
+				</optgroup>
+				<optgroup label="Virginia">
+					<option>Virginia Beach</option>
+					<option>Norfolk</option>
+					<option>Chesapeake</option>
+					<option>Arlington</option>
+					<option>Richmond</option>
+				</optgroup>
+				<optgroup label="Washington">
+					<option>Seattle</option>
+					<option>Spokane</option>
+					<option>Tacoma</option>
+					<option>Vancouver</option>
+					<option>Bellevue</option>
+				</optgroup>
+				<optgroup label="Wisconsin">
+					<option>Milwaukee</option>
+					<option>Madison</option>
+					<option>Green Bay</option>
+					<option>Kenosha</option>
+					<option>Racine</option>
+				</optgroup>
+			</select>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	<!-- //shop locator (popup) -->
+
+	
+	<!-- //modal -->
+	<!-- //top-header -->
+
+	<!-- header-bottom-->
+	<div class="header-bot">
+		<div class="container">
+			<div class="row header-bot_inner_wthreeinfo_header_mid">
+				<!-- logo -->
+				<div class="col-md-3 logo_agile">
+					<h1 class="text-center">
+						<a href="index.html" class="font-weight-bold font-italic">
+							<img src="images/logo2.png" alt=" " class="img-fluid">Electro Store
+						</a>
+					</h1>
+				</div>
+				<!-- //logo -->
+				<!-- header-bot -->
+				<div class="col-md-9 header mt-4 mb-md-0 mb-4">
+					<div class="row">
+						<!-- search -->
+						<div class="col-10 agileits_search">
+							<form class="form-inline" action="#" method="post">
+								<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" required>
+								<button class="btn my-2 my-sm-0" type="submit">Search</button>
+							</form>
+						</div>
+						<!-- //search -->
+						<!-- cart details -->
+						<div class="col-2 top_nav_right text-center mt-sm-0 mt-2">
+							<div class="wthreecartaits wthreecartaits2 cart cart box_1">
+								<form action="#" method="post" class="last">
+									<input type="hidden" name="cmd" value="_cart">
+									<input type="hidden" name="display" value="1">
+									<button class="btn w3view-cart" type="submit" name="submit" value="">
+										<i class="fas fa-cart-arrow-down"></i>
+									</button>
+								</form>
+							</div>
+						</div>
+						<!-- //cart details -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- shop locator (popup) -->
+	<!-- navigation -->
+	<div class="navbar-inner">
+		<div class="container">
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+				<div class="agileits-navi_search">
+					<form action="#" method="post">
+					</form>
+				</div>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+				    aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav ml-auto text-center mr-xl-5">
+						<li class="nav-item mr-lg-2 mb-lg-0 mb-2">
+							<a class="nav-link" href="index.html">Home
+								<span class="sr-only">(current)</span>
+							</a>
+						</li>
+						<li class="nav-item dropdown mr-lg-2 mb-lg-0 mb-2">
+							<a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Electronics
+							</a>
+							<div class="dropdown-menu">
+								<div class="agile_inner_drop_nav_info p-4">
+									<h5 class="mb-3">Sounds</h5>
+									<div class="row">
+										<div class="col-sm-6 multi-gd-img">
+											<ul class="multi-column-dropdown">
+												<li>
+													<a href="product.html">All products</a>
+												</li>
+												
+												
+											</ul>
+										</div>
+										<div class="col-sm-6 multi-gd-img">
+											<ul class="multi-column-dropdown">
+								
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+											
+						<li class="nav-item mr-lg-2 mb-lg-0 mb-2">
+							<a class="nav-link" href="about.html">About Us</a>
+						</li>
+						<li class="nav-item mr-lg-2 mb-lg-0 mb-2">
+							<a class="nav-link" href="product.html">New Arrivals</a>
+						</li>
+						<li class="nav-item dropdown active mr-lg-2 mb-lg-0 mb-2">
+							<a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Pages & Most preferred items 
+							</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="product.html">Soundbars & Speakers</a>
+								<a class="dropdown-item" href="product2.html">Weak Audio Systems</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item active" href="single.html">Bluetooth Speaker</a>
+								<a class="dropdown-item" href="single2.html">LED Portable Bluetooth Speakers with Lights</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="checkout.html">Checkout Page</a>
+								<a class="dropdown-item" href="payment.html">Payment Page</a>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="contact.html">Contact Us</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</div>
+	<!-- //navigation -->
+
+	<!-- banner-2 -->
+	<div class="page-head_agile_info_w3l">
+
+	</div>
+	<!-- //banner-2 -->
+	<!-- page -->
+	<div class="services-breadcrumb">
+		<div class="agile_inner_breadcrumb">
+			<div class="container">
+				<ul class="w3_short">
+					<li>
+						<a href="index.html">Home</a>
+						<i>|</i>
+					</li>
+					<li>Terms</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- //page -->
+
+	<!-- terms -->
+	<div class="terms py-sm-5 py-4">
+		<div class="container py-xl-4 py-lg-2">
+			<!-- tittle heading -->
+			<h3 class="tittle-w3l text-center mb-lg-5 mb-sm-4 mb-3">
+				<span>T</span>erms
+				<span>O</span>f
+				<span>U</span>se </h3>
+			<!-- //tittle heading -->
+			<h3 class="w3-head w3-secong-head text-capitalize">please read these terms and conditions carefully.</h3>
+			<h6 class="my-md-4 my-3">Introduction</h6>
+			<ol start="1" class="pl-sm-4 pl-3">
+				<p class="font-weight-light pl-sm-4 mb-2">Welcome to Itteam (“Company”, “we”, “our”, “us”)!<br>
+
+Our Privacy Policy also governs your use of our Service and explains how we collect, safeguard and disclose information that results from your use of our web pages.<br>
+
+Your agreement with us includes these Terms and our Privacy Policy (“Agreements”). You acknowledge that you have read and understood Agreements, and agree to be bound of them.<br>
+                    
+If you do not agree with (or cannot comply with) Agreements, then you may not use the Service, but please let us know by emailing at itsupport@gmail.com so we can try to find a solution. These Terms apply to all visitors, users and others who wish to access or use Service.<br>
+				
+
+			<h6 class="my-md-4 my-3">Communications</h6>
+			<p class="font-weight-light pl-sm-4 mb-2">By using our Service, you agree to subscribe to newsletters, marketing or promotional materials and other information we may send. However, you may opt out of receiving any, or all, of these communications from us by following the unsubscribe link or by emailing at itsupport@gmail.com.</p>
+
+			<h6 class="my-md-4 my-3">Purchases</h6>
+			<p class="font-weight-light pl-sm-4 mb-2">If you wish to purchase any product or service made available through Service (“Purchase”), you may be asked to supply certain information relevant to your Purchase including but not limited to, your credit or debit card number, the expiration date of your card, your billing address, and your shipping information.<br>
+
+You represent and warrant that: (i) you have the legal right to use any card(s) or other payment method(s) in connection with any Purchase; and that (ii) the information you supply to us is true, correct and complete.<br>
+
+We may employ the use of third party services for the purpose of facilitating payment and the completion of Purchases. By submitting your information, you grant us the right to provide the information to these third parties subject to our Privacy Policy.<br>
+
+We reserve the right to refuse or cancel your order at any time for reasons including but not limited to: product or service availability, errors in the description or price of the product or service, error in your order or other reasons.<br>
+
+We reserve the right to refuse or cancel your order if fraud or an unauthorized or illegal transaction is suspected.<br></p>
+
+			<h6 class="my-md-4 my-3">Contests, Sweepstakes and Promotions</h6>
+			<p class="font-weight-light pl-sm-4 mb-2">Any contests, sweepstakes or other promotions (collectively, “Promotions”) made available through Service may be governed by rules that are separate from these Terms of Service. If you participate in any Promotions, please review the applicable rules as well as our Privacy Policy. If the rules for a Promotion conflict with these Terms of Service, Promotion rules will apply.</p>
+
+            <h6 class="my-md-4 my-3">Refunds</h6>
+			<p class="font-weight-light pl-sm-4 mb-2"> We issue refunds for Contracts within 14 days of the original purchase of the Contract.
+
+			<h6 class="my-md-4 my-3">Content</h6>
+			<p class="font-weight-light pl-sm-4 mb-2">Content found on or through this Service are the property of Itteam or used with permission. You may not distribute, modify, transmit, reuse, download, repost, copy, or use said Content, whether in whole or in part, for commercial purposes or for personal gain, without express advance written permission from us.
+			</p>
+			<h6 class="my-md-4 my-3">Prohibited Uses</h6>
+			<p class="font-weight-light pl-sm-4 mb-2"> You may use Service only for lawful purposes and in accordance with Terms. You agree not to use Service:<br><br>
+
+1. In any way that violates any applicable national or international law or regulation.<br><br>
+
+2. For the purpose of exploiting, harming, or attempting to exploit or harm minors in any way by exposing them to inappropriate content or otherwise.<br><br>
+
+3. To transmit, or procure the sending of, any advertising or promotional material, including any “junk mail”, “chain letter,” “spam,” or any other similar solicitation.<br><br>
+
+4. To impersonate or attempt to impersonate Company, a Company employee, another user, or any other person or entity.<br><br>
+
+5. In any way that infringes upon the rights of others, or in any way is illegal, threatening, fraudulent, or harmful, or in connection with any unlawful, illegal, fraudulent, or harmful purpose or activity.<br><br>
+
+6. To engage in any other conduct that restricts or inhibits anyone’s use or enjoyment of Service, or which, as determined by us, may harm or offend Company or users of Service or expose them to liability.<br><br>
+
+Additionally, you agree not to:<br><br>
+
+1. Use Service in any manner that could disable, overburden, damage, or impair Service or interfere with any other party’s use of Service, including their ability to engage in real time activities through Service.<br><br>
+
+2. Use any robot, spider, or other automatic device, process, or means to access Service for any purpose, including monitoring or copying any of the material on Service.<br><br>
+
+3. Use any manual process to monitor or copy any of the material on Service or for any other unauthorized purpose without our prior written consent.<br><br>
+
+4. Use any device, software, or routine that interferes with the proper working of Service.<br><br>
+
+5. Introduce any viruses, trojan horses, worms, logic bombs, or other material which is malicious or technologically harmful.<br><br>
+
+6. Attempt to gain unauthorized access to, interfere with, damage, or disrupt any parts of Service, the server on which Service is stored, or any server, computer, or database connected to Service.<br><br>
+
+7. Attack Service via a denial-of-service attack or a distributed denial-of-service attack.<br><br>
+
+8. Take any action that may damage or falsify Company rating.<br><br>
+
+9. Otherwise attempt to interfere with the proper working of Service.<br><br></p>
+                <h6 class="my-md-4 my-3">Analytics</h6>
+			<p class="font-weight-light pl-sm-4 mb-2">We may use third-party Service Providers to monitor and analyze the use of our Service..<br>
+		
+                <h6 class="my-md-4 my-3">No Use By Minors</h6>
+			<p class="font-weight-light pl-sm-4 mb-2">Service is intended only for access and use by individuals at least eighteen (18) years old. By accessing or using Service, you warrant and represent that you are at least eighteen (18) years of age and with the full authority, right, and capacity to enter into this agreement and abide by all of the terms and conditions of Terms. If you are not at least eighteen (18) years old, you are prohibited from both the access and usage of Service.<br>
+                
+                <h6 class="my-md-4 my-3">Intellectual Property</h6>
+			<p class="font-weight-light pl-sm-4 mb-2">Service and its original content (excluding Content provided by users), features and functionality are and will remain the exclusive property of Itteam and its licensors. Service is protected by copyright, trademark, and other laws of and foreign countries. Our trademarks may not be used in connection with any product or service without the prior written consent of Itteam.<br>
+                
+                <h6 class="my-md-4 my-3">Copyright Policy</h6>
+			<p class="font-weight-light pl-sm-4 mb-2">We respect the intellectual property rights of others. It is our policy to respond to any claim that Content posted on Service infringes on the copyright or other intellectual property rights (“Infringement”) of any person or entity.<br><br>
+
+If you are a copyright owner, or authorized on behalf of one, and you believe that the copyrighted work has been copied in a way that constitutes copyright infringement, please submit your claim via email to itsupport@gmail.com, with the subject line: “Copyright Infringement” and include in your claim a detailed description of the alleged Infringement as detailed below, under “DMCA Notice and Procedure for Copyright Infringement Claims”.<br><br>
+
+You may be held accountable for damages (including costs and attorneys’ fees) for misrepresentation or bad-faith claims on the infringement of any Content found on and/or through Service on your copyright.<br><br>
+                
+                <h6 class="my-md-4 my-3">DMCA Notice and Procedure for Copyright Infringement Claims</h6>
+			<p class="font-weight-light pl-sm-4 mb-2">You may submit a notification pursuant to the Digital Millennium Copyright Act (DMCA) by providing our Copyright Agent with the following information in writing (see 17 U.S.C 512(c)(3) for further detail):<br><br>
+
+1. An electronic or physical signature of the person authorized to act on behalf of the owner of the copyright’s interest;<br><br>
+
+2. A description of the copyrighted work that you claim has been infringed, including the URL (i.e., web page address) of the location where the copyrighted work exists or a copy of the copyrighted work;<br><br>
+
+3. Identification of the URL or other specific location on Service where the material that you claim is infringing is located;<br><br>
+
+4. Your address, telephone number, and email address;<br><br>
+
+5. A statement by you that you have a good faith belief that the disputed use is not authorized by the copyright owner, its agent, or the law;<br><br>
+
+6. A statement by you, made under penalty of perjury, that the above information in your notice is accurate and that you are the copyright owner or authorized to act on the copyright owner’s behalf.<br><br>
+
+You can contact our Copyright Agent via email at itsupport@gmail.com.<br><br>
+                
+                <h6 class="my-md-4 my-3">Error Reporting and Feedback</h6>
+			<p class="font-weight-light pl-sm-4 mb-2">You may provide us either directly at itsupport@gmail.com or via third party sites and tools with information and feedback concerning errors, suggestions for improvements, ideas, problems, complaints, and other matters related to our Service (“Feedback”). You acknowledge and agree that: (i) you shall not retain, acquire or assert any intellectual property right or other right, title or interest in or to the Feedback; (ii) Company may have development ideas similar to the Feedback; (iii) Feedback does not contain confidential information or proprietary information from you or any third party; and (iv) Company is not under any obligation of confidentiality with respect to the Feedback. In the event the transfer of the ownership to the Feedback is not possible due to applicable mandatory laws, you grant Company and its affiliates an exclusive, transferable, irrevocable, free-of-charge, sub-licensable, unlimited and perpetual right to use (including copy, modify, create derivative works, publish, distribute and commercialize) Feedback in any manner and for any purpose.<br><br>
+                <h6 class="my-md-4 my-3">Links To Other Web Sites</h6>
+			<p class="font-weight-light pl-sm-4 mb-2">Our Service may contain links to third party web sites or services that are not owned or controlled by Itteam.<br><br>
+
+Itteam has no control over, and assumes no responsibility for the content, privacy policies, or practices of any third party web sites or services. We do not warrant the offerings of any of these entities/individuals or their websites.<br><br>
+
+For example, the outlined Terms of Use have been created using PolicyMaker.io, a free web application for generating high-quality legal documents. PolicyMaker’s Terms and Conditions generator is an easy-to-use free tool for creating an excellent standard Terms of Service template for a website, blog, e-commerce store or app.<br><br>
+
+YOU ACKNOWLEDGE AND AGREE THAT COMPANY SHALL NOT BE RESPONSIBLE OR LIABLE, DIRECTLY OR INDIRECTLY, FOR ANY DAMAGE OR LOSS CAUSED OR ALLEGED TO BE CAUSED BY OR IN CONNECTION WITH USE OF OR RELIANCE ON ANY SUCH CONTENT, GOODS OR SERVICES AVAILABLE ON OR THROUGH ANY SUCH THIRD PARTY WEB SITES OR SERVICES.<br><br>
+
+WE STRONGLY ADVISE YOU TO READ THE TERMS OF SERVICE AND PRIVACY POLICIES OF ANY THIRD PARTY WEB SITES OR SERVICES THAT YOU VISIT.<br><br>
+                
+                 <h6 class="my-md-4 my-3">Disclaimer Of Warranty</h6>
+			<p class="font-weight-light pl-sm-4 mb-2">THESE SERVICES ARE PROVIDED BY COMPANY ON AN “AS IS” AND “AS AVAILABLE” BASIS. COMPANY MAKES NO REPRESENTATIONS OR WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, AS TO THE OPERATION OF THEIR SERVICES, OR THE INFORMATION, CONTENT OR MATERIALS INCLUDED THEREIN. YOU EXPRESSLY AGREE THAT YOUR USE OF THESE SERVICES, THEIR CONTENT, AND ANY SERVICES OR ITEMS OBTAINED FROM US IS AT YOUR SOLE RISK.<br><br>
+
+NEITHER COMPANY NOR ANY PERSON ASSOCIATED WITH COMPANY MAKES ANY WARRANTY OR REPRESENTATION WITH RESPECT TO THE COMPLETENESS, SECURITY, RELIABILITY, QUALITY, ACCURACY, OR AVAILABILITY OF THE SERVICES. WITHOUT LIMITING THE FOREGOING, NEITHER COMPANY NOR ANYONE ASSOCIATED WITH COMPANY REPRESENTS OR WARRANTS THAT THE SERVICES, THEIR CONTENT, OR ANY SERVICES OR ITEMS OBTAINED THROUGH THE SERVICES WILL BE ACCURATE, RELIABLE, ERROR-FREE, OR UNINTERRUPTED, THAT DEFECTS WILL BE CORRECTED, THAT THE SERVICES OR THE SERVER THAT MAKES IT AVAILABLE ARE FREE OF VIRUSES OR OTHER HARMFUL COMPONENTS OR THAT THE SERVICES OR ANY SERVICES OR ITEMS OBTAINED THROUGH THE SERVICES WILL OTHERWISE MEET YOUR NEEDS OR EXPECTATIONS.<br><br>
+
+COMPANY HEREBY DISCLAIMS ALL WARRANTIES OF ANY KIND, WHETHER EXPRESS OR IMPLIED, STATUTORY, OR OTHERWISE, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, NON-INFRINGEMENT, AND FITNESS FOR PARTICULAR PURPOSE.<br><br>
+
+THE FOREGOING DOES NOT AFFECT ANY WARRANTIES WHICH CANNOT BE EXCLUDED OR LIMITED UNDER APPLICABLE LAW.<br><br>
+                
+                <h6 class="my-md-4 my-3">Limitation Of Liability</h6>
+			<p class="font-weight-light pl-sm-4 mb-2">EXCEPT AS PROHIBITED BY LAW, YOU WILL HOLD US AND OUR OFFICERS, DIRECTORS, EMPLOYEES, AND AGENTS HARMLESS FOR ANY INDIRECT, PUNITIVE, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGE, HOWEVER IT ARISES (INCLUDING ATTORNEYS’ FEES AND ALL RELATED COSTS AND EXPENSES OF LITIGATION AND ARBITRATION, OR AT TRIAL OR ON APPEAL, IF ANY, WHETHER OR NOT LITIGATION OR ARBITRATION IS INSTITUTED), WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE, OR OTHER TORTIOUS ACTION, OR ARISING OUT OF OR IN CONNECTION WITH THIS AGREEMENT, INCLUDING WITHOUT LIMITATION ANY CLAIM FOR PERSONAL INJURY OR PROPERTY DAMAGE, ARISING FROM THIS AGREEMENT AND ANY VIOLATION BY YOU OF ANY FEDERAL, STATE, OR LOCAL LAWS, STATUTES, RULES, OR REGULATIONS, EVEN IF COMPANY HAS BEEN PREVIOUSLY ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. EXCEPT AS PROHIBITED BY LAW, IF THERE IS LIABILITY FOUND ON THE PART OF COMPANY, IT WILL BE LIMITED TO THE AMOUNT PAID FOR THE PRODUCTS AND/OR SERVICES, AND UNDER NO CIRCUMSTANCES WILL THERE BE CONSEQUENTIAL OR PUNITIVE DAMAGES. SOME STATES DO NOT ALLOW THE EXCLUSION OR LIMITATION OF PUNITIVE, INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO THE PRIOR LIMITATION OR EXCLUSION MAY NOT APPLY TO YOU.<br><br>
+                
+                <h6 class="my-md-4 my-3">Termination</h6>
+			<p class="font-weight-light pl-sm-4 mb-2">We may terminate or suspend your account and bar access to Service immediately, without prior notice or liability, under our sole discretion, for any reason whatsoever and without limitation, including but not limited to a breach of Terms.<br><br>
+
+If you wish to terminate your account, you may simply discontinue using Service.<br><br>
+
+All provisions of Terms which by their nature should survive termination shall survive termination, including, without limitation, ownership provisions, warranty disclaimers, indemnity and limitations of liability.<br><br>
+                
+                 <h6 class="my-md-4 my-3">Governing Law</h6>
+			<p class="font-weight-light pl-sm-4 mb-2">These Terms shall be governed and construed in accordance with the laws of Bulgaria, which governing law applies to agreement without regard to its conflict of law provisions.<br><br>
+
+Our failure to enforce any right or provision of these Terms will not be considered a waiver of those rights. If any provision of these Terms is held to be invalid or unenforceable by a court, the remaining provisions of these Terms will remain in effect. These Terms constitute the entire agreement between us regarding our Service and supersede and replace any prior agreements we might have had between us regarding Service.<br><br>
+                
+                <h6 class="my-md-4 my-3">Changes To Service</h6>
+			<p class="font-weight-light pl-sm-4 mb-2">We reserve the right to withdraw or amend our Service, and any service or material we provide via Service, in our sole discretion without notice. We will not be liable if for any reason all or any part of Service is unavailable at any time or for any period. From time to time, we may restrict access to some parts of Service, or the entire Service, to users, including registered users.<br><br>
+                
+                <h6 class="my-md-4 my-3">Amendments To Terms</h6>
+			<p class="font-weight-light pl-sm-4 mb-2">We may amend Terms at any time by posting the amended terms on this site. It is your responsibility to review these Terms periodically.<br><br>
+
+Your continued use of the Platform following the posting of revised Terms means that you accept and agree to the changes. You are expected to check this page frequently so you are aware of any changes, as they are binding on you.<br><br>
+
+By continuing to access or use our Service after any revisions become effective, you agree to be bound by the revised terms. If you do not agree to the new terms, you are no longer authorized to use Service.<br><br>
+                
+                   <h6 class="my-md-4 my-3">Waiver And Severability</h6>
+			<p class="font-weight-light pl-sm-4 mb-2">No waiver by Company of any term or condition set forth in Terms shall be deemed a further or continuing waiver of such term or condition or a waiver of any other term or condition, and any failure of Company to assert a right or provision under Terms shall not constitute a waiver of such right or provision.<br><br>
+
+If any provision of Terms is held by a court or other tribunal of competent jurisdiction to be invalid, illegal or unenforceable for any reason, such provision shall be eliminated or limited to the minimum extent such that the remaining provisions of Terms will continue in full force and effect.<br><br>
+                
+                <h6 class="my-md-4 my-3">Acknowledgement</h6>
+			<p class="font-weight-light pl-sm-4 mb-2">BY USING SERVICE OR OTHER SERVICES PROVIDED BY US, YOU ACKNOWLEDGE THAT YOU HAVE READ THESE TERMS OF SERVICE AND AGREE TO BE BOUND BY THEM.<br><br>
+                
+                 <h6 class="my-md-4 my-3">Contact Us</h6>
+			<p class="font-weight-light pl-sm-4 mb-2">Please send your feedback, comments, requests for technical support by email:<br> <i class="fas fa-envelope-open"></i>
+								<a href="mailto:example@mail.com"> itsupport@gmail.com</a><br><br>
+            </div>
+            </div>
+
+	</div>
+	<!-- //terms -->
+
+	<!-- middle section -->
+	<div class="join-w3l1 py-sm-5 py-4">
+		<div class="container py-xl-4 py-lg-2">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="join-agile text-left p-4">
+						<div class="row">
+							<div class="col-sm-7 offer-name">
+								<h6>Smooth, Rich & Loud Audio</h6>
+								<h4 class="mt-2 mb-3">Branded Headphones</h4>
+								<p>Sale up to 25% off all in store</p>
+							</div>
+							<div class="col-sm-5 offerimg-w3l">
+								<img src="images/off1.png" alt="" class="img-fluid">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 mt-lg-0 mt-5">
+					<div class="join-agile text-left p-4">
+						<div class="row ">
+							<div class="col-sm-7 offer-name">
+								<h6>A Bigger Speaker</h6>
+								<h4 class="mt-2 mb-3">Smart Speaker 5</h4>
+								<p>Free shipping order over $100</p>
+							</div>
+							<div class="col-sm-5 offerimg-w3l">
+								<img src="images/off2.png" alt="" class="img-fluid">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- middle section -->
+
+	<!-- footer -->
+	<footer>
+		<div class="footer-top-first">
+			<div class="container py-md-5 py-sm-4 py-3">
+				<!-- footer first section -->
+				<h2 class="footer-top-head-w3l font-weight-bold mb-2">Electronics :</h2>
+				<p class="footer-main mb-4">
+					If you're considering a new amplifier, looking for a powerful new car stereo or shopping for some headphones, we make it easy to
+					find exactly what you need at a price you can afford. We offer Every Day Low Prices on Audio Systems, Headphones, Speakers, Amplifiers, Cables and much more.</p>
+				<!-- //footer first section -->
+				<!-- footer second section -->
+				<div class="row w3l-grids-footer border-top border-bottom py-sm-4 py-3">
+					<div class="col-md-4 offer-footer">
+						<div class="row">
+							<div class="col-4 icon-fot">
+								<i class="fas fa-dolly"></i>
+							</div>
+							<div class="col-8 text-form-footer">
+								<h3>Free Shipping</h3>
+								<p>on orders over $100</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 offer-footer my-md-0 my-4">
+						<div class="row">
+							<div class="col-4 icon-fot">
+								<i class="fas fa-shipping-fast"></i>
+							</div>
+							<div class="col-8 text-form-footer">
+								<h3>Fast Delivery</h3>
+								<p>World Wide</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 offer-footer">
+						<div class="row">
+							<div class="col-4 icon-fot">
+								<i class="far fa-thumbs-up"></i>
+							</div>
+							<div class="col-8 text-form-footer">
+								<h3>Big Choice</h3>
+								<p>of Products</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- //footer second section -->
+			</div>
+		</div>
+		<!-- footer third section -->
+		<div class="w3l-middlefooter-sec">
+			<div class="container py-md-5 py-sm-4 py-3">
+				<div class="row footer-info w3-agileits-info">
+					<!-- footer categories -->
+					<div class="col-md-3 col-sm-6 footer-grids">
+						<h3 class="text-white font-weight-bold mb-3">Categories</h3>
+						<ul>
+							<li class="mb-3">
+								<a href="product.html">Strong
+                                Sound Systems</a>
+							</li>
+							<li class="mb-3">
+								<a href="product2.html">Weak
+                                Sound Systems</a>
+							</li>
+							
+						</ul>
+					</div>
+					<!-- //footer categories -->
+					<!-- quick links -->
+					<div class="col-md-3 col-sm-6 footer-grids mt-sm-0 mt-4">
+						<h3 class="text-white font-weight-bold mb-3">Quick Links</h3>
+						<ul>
+							<li class="mb-3">
+								<a href="about.html">About Us</a>
+							</li>
+							<li class="mb-3">
+								<a href="contact.html">Contact Us</a>
+							</li>
+							<li class="mb-3">
+								<a href="help.html">Help</a>
+							</li>
+							<li class="mb-3">
+								<a href="faqs.html">Faqs</a>
+							</li>
+							<li class="mb-3">
+								<a href="terms.html">Terms of use</a>
+							</li>
+							<li>
+								<a href="privacy.html">Privacy Policy</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-md-3 col-sm-6 footer-grids mt-md-0 mt-4">
+						<h3 class="text-white font-weight-bold mb-3">Get in Touch</h3>
+						<ul>
+							<li class="mb-3">
+								<i class="fas fa-map-marker"></i> St.Studentska 50, Varna</li>
+							<li class="mb-3">
+								<i class="fas fa-mobile"></i> 0986555477 </li>
+							<li class="mb-3">
+								<i class="fas fa-phone"></i> +1455523100 </li>
+							<li class="mb-3">
+								<i class="fas fa-envelope-open"></i>
+								<a href="mailto:example@mail.com"> itteam@gmail.com</a>
+							</li>
+							<li>
+								<i class="fas fa-envelope-open"></i>
+								<a href="mailto:example@mail.com"> itsupport@gmail.com</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-md-3 col-sm-6 footer-grids w3l-agileits mt-md-0 mt-4">
+					
+						<h3 class="text-white font-weight-bold mb-3">Newsletter</h3>
+						<p class="mb-3">Free Delivery on your first order!</p>
+						<form action="#" method="post">
+							
+						</form>
+						
+						<div class="footer-grids  w3l-socialmk mt-3">
+							<h3 class="text-white font-weight-bold mb-3">Follow Us on</h3>
+							<div class="social">
+								<ul>
+									<li>
+										<a class="icon fb" href="#">
+											<i class="fab fa-facebook-f"></i>
+										</a>
+									</li>
+									<li>
+										<a class="icon tw" href="#">
+											<i class="fab fa-twitter"></i>
+										</a>
+									</li>
+									<li>
+										<a class="icon gp" href="#">
+											<i class="fab fa-google-plus-g"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<!-- //social icons -->
+					</div>
+				</div>
+				<!-- //quick links -->
+			</div>
+		</div>
+		<!-- //footer third section -->
+
+		<!-- footer fourth section -->
+		
+		<!-- //footer fourth section (text) -->
+	</footer>
+	<!-- //footer -->
+	<!-- copyright -->
+	<div class="copy-right py-3">
+		<div class="container">
+			<p class="text-center text-white">© 2022 Electro Store. All rights reserved | Design by Itteam
+				
+			</p>
+		</div>
+	</div>
+	<!-- //copyright -->
+
+	<!-- js-files -->
+	<!-- jquery -->
+	<script src="js/jquery-2.2.3.min.js"></script>
+	<!-- //jquery -->
+
+	<!-- nav smooth scroll -->
+	<script>
+		$(document).ready(function () {
+			$(".dropdown").hover(
+				function () {
+					$('.dropdown-menu', this).stop(true, true).slideDown("fast");
+					$(this).toggleClass('open');
+				},
+				function () {
+					$('.dropdown-menu', this).stop(true, true).slideUp("fast");
+					$(this).toggleClass('open');
+				}
+			);
+		});
+	</script>
+	<!-- //nav smooth scroll -->
+
+	<!-- popup modal (for location)-->
+	<script src="js/jquery.magnific-popup.js"></script>
+	<script>
+		$(document).ready(function () {
+			$('.popup-with-zoom-anim').magnificPopup({
+				type: 'inline',
+				fixedContentPos: false,
+				fixedBgPos: true,
+				overflowY: 'auto',
+				closeBtnInside: true,
+				preloader: false,
+				midClick: true,
+				removalDelay: 300,
+				mainClass: 'my-mfp-zoom-in'
+			});
+
+		});
+	</script>
+	<!-- //popup modal (for location)-->
+
+	<!-- cart-js -->
+	<script src="js/minicart.js"></script>
+	<script>
+		paypals.minicarts.render(); //use only unique class names other than paypals.minicarts.Also Replace same class name in css and minicart.min.js
+
+		paypals.minicarts.cart.on('checkout', function (evt) {
+			var items = this.items(),
+				len = items.length,
+				total = 0,
+				i;
+
+			// Count the number of each item in the cart
+			for (i = 0; i < len; i++) {
+				total += items[i].get('quantity');
+			}
+
+			if (total < 1) {
+				alert('The minimum order quantity is 1. Please add more to your shopping cart before checking out');
+				evt.preventDefault();
+			}
+		});
+	</script>
+	<!-- //cart-js -->
+
+	<!-- password-script -->
+	<script>
+		window.onload = function () {
+			document.getElementById("password1").onchange = validatePassword;
+			document.getElementById("password2").onchange = validatePassword;
+		}
+
+		function validatePassword() {
+			var pass2 = document.getElementById("password2").value;
+			var pass1 = document.getElementById("password1").value;
+			if (pass1 != pass2)
+				document.getElementById("password2").setCustomValidity("Passwords Don't Match");
+			else
+				document.getElementById("password2").setCustomValidity('');
+			//empty string means no validation error
+		}
+	</script>
+	<!-- //password-script -->
+
+	<!-- smoothscroll -->
+	<script src="js/SmoothScroll.min.js"></script>
+	<!-- //smoothscroll -->
+
+	<!-- start-smooth-scrolling -->
+	<script src="js/move-top.js"></script>
+	<script src="js/easing.js"></script>
+	<script>
+		jQuery(document).ready(function ($) {
+			$(".scroll").click(function (event) {
+				event.preventDefault();
+
+				$('html,body').animate({
+					scrollTop: $(this.hash).offset().top
+				}, 1000);
+			});
+		});
+	</script>
+	<!-- //end-smooth-scrolling -->
+
+	<!-- smooth-scrolling-of-move-up -->
+	<script>
+		$(document).ready(function () {
+			/*
+			var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+			};
+			*/
+			$().UItoTop({
+				easingType: 'easeOutQuart'
+			});
+
+		});
+	</script>
+	<!-- //smooth-scrolling-of-move-up -->
+
+	<!-- for bootstrap working -->
+	<script src="js/bootstrap.js"></script>
+	<!-- //for bootstrap working -->
+	<!-- //js-files -->
+
+</body>
+
+</html>

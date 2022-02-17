@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+	<title>Electro Store</title>
+	<!-- Meta tag Keywords -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8" />
+	<script>
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	<!-- //Meta tag Keywords -->
+
+	<!-- Custom-Files -->
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- Bootstrap css -->
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- Main css -->
+	<link rel="stylesheet" href="css/fontawesome-all.css">
+	<!-- Font-Awesome-Icons-CSS -->
+	<link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- pop-up-box -->
+	<link href="css/menu.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- menu style -->
+	<!-- //Custom-Files -->
+
+	<!-- web fonts -->
+	<link href="//fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&amp;subset=latin-ext" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese"
+	    rel="stylesheet">
+	<!-- //web fonts -->
+
+</head>
+
+<body>
+	<!-- top-header -->
+	<div class="agile-main-top">
+		<div class="container-fluid">
+			<div class="row main-top-w3l py-2">
+				<div class="col-lg-4 header-most-top">
+					<p class="text-white text-lg-left text-center">Grand oppening & Discounts
+						<i class="fas fa-shopping-cart ml-1"></i>
+					</p>
+				</div>
+				<div class="col-lg-8 header-right mt-lg-0 mt-2">
+					<!-- header lists -->
+					<ul>
+						<li class="text-center border-right text-white">
+							<a class="play-icon popup-with-zoom-anim text-white" href="#small-dialog1">
+								<i class="fas fa-map-marker mr-2"></i>Select Location</a>
+						</li>
+						
+						</li>
+						<li class="text-center border-right text-white">
+							<i class="fas fa-phone mr-2"></i> +359 8998413333
+						</li>
+
+					</ul>
+					<!-- //header lists -->
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Button trigger modal(select-location) -->
+	<div id="small-dialog1" class="mfp-hide">
+		<div class="select-city">
+			<h3>
+				<i class="fas fa-map-marker"></i> Please Select Your Location</h3>
+			<select class="list_of_cities">
+				<optgroup label="Bulgaria">
+					<option selected style="display:none;color:#eee;">Select City</option>
+					<option>Sofia</option>
+					<option>Varna</option>
+					<option>Burgas</option>
+					<option>Plovdiv</option>
+					<option>Ruse</option>
+					<option>Razgard</option>
+					<option>Turgovishte</option>
+					<option>Veliko Tarnovo</option>
+					<option>Shumen</option>
+					<option>Vraca</option>
+					<option>Nesebar</option>
+					<option>Pazardjik</option>
+					<option>Pleven</option>
+				</optgroup>
+				<optgroup label="USA">
+					<option>New York</option>
+					<option>Chicago</option>
+					<option>Los Angeles</option>
+					<option>Phoenix</option>
+					<option>Philadelphia</option>
+				</optgroup>
+				<optgroup label="Russia">
+					<option>Moscow</option>
+					<option>Saint Petersburg</option>
+					<option>Novosibirsk</option>
+					<option>Yekaterinburg</option>
+					<option>Chelyabinks</option>
+				</optgroup>
+				<optgroup label="China">
+					<option>Shanghai</option>
+					<option>Beijing</option>
+					<option>Chongqing</option>
+					<option>Tianjin</option>
+					<option>Guangzhou</option>
+				</optgroup>
+				<optgroup label="Ukraine">
+					<option>Kyiv</option>
+					<option>Kharkiv</option>
+					<option>Donetsk</option>
+					<option>Odessa</option>
+					<option>Dnipro</option>
+				</optgroup>
+				<optgroup label="India">
+					<option>Mumbai</option>
+					<option>Delhi</option>
+					<option>Bangalore</option>
+					<option>Hyderabad</option>
+					<option>Ahmedabad</option>
+				</optgroup>
+				<optgroup label="Brazil">
+					<option>São Paulo</option>
+					<option>Rio de Janeiro</option>
+					<option>Brasília</option>
+					<option>Salvador</option>
+					<option>Fortaleza</option>
+				</optgroup>
+				<optgroup label="UK">
+					<option>London</option>
+					<option>Manchester</option>
+					<option>Birmingham</option>
+					<option>Leeds</option>
+					<option>Sheffield</option>
+				</optgroup>
+				<optgroup label="Delaware">
+					<option>Wilmington</option>
+					<option>Dover</option>
+					<option>Newark</option>
+					<option>Bear</option>
+					<option>Middletown</option>
+				</optgroup>
+				<optgroup label="Hawaii">
+					<option>Honolulu</option>
+					<option>Pearl City</option>
+					<option>Hilo</option>
+					<option>Kailua</option>
+					<option>Waipahu</option>
+				</optgroup>
+				<optgroup label="Kansas">
+					<option>Wichita</option>
+					<option>Overland Park</option>
+					<option>Kansas City</option>
+					<option>Topeka</option>
+					<option>Olathe </option>
+				</optgroup>
+				<optgroup label="Louisiana">
+					<option>New Orleans</option>
+					<option>Baton Rouge</option>
+					<option>Shreveport</option>
+					<option>Metairie</option>
+					<option>Lafayette</option>
+				</optgroup>
+				<optgroup label="Maine">
+					<option>Portland</option>
+					<option>Lewiston</option>
+					<option>Bangor</option>
+					<option>South Portland</option>
+					<option>Auburn</option>
+				</optgroup>
+				<optgroup label="Maryland">
+					<option>Baltimore</option>
+					<option>Frederick</option>
+					<option>Rockville</option>
+					<option>Gaithersburg</option>
+					<option>Bowie</option>
+				</optgroup>
+				<optgroup label="Michigan">
+					<option>Detroit</option>
+					<option>Grand Rapids</option>
+					<option>Warren</option>
+					<option>Sterling Heights</option>
+					<option>Lansing</option>
+				</optgroup>
+				<optgroup label="Mississippi">
+					<option>Jackson</option>
+					<option>Gulfport</option>
+					<option>Southaven</option>
+					<option>Hattiesburg</option>
+					<option>Biloxi</option>
+				</optgroup>
+				<optgroup label="Missouri">
+					<option>Kansas City</option>
+					<option>St. Louis</option>
+					<option>Springfield</option>
+					<option>Independence</option>
+					<option>Columbia</option>
+				</optgroup>
+				<optgroup label="Nebraska">
+					<option>Omaha</option>
+					<option>Lincoln</option>
+					<option>Bellevue</option>
+					<option>Grand Island</option>
+					<option>Kearney</option>
+				</optgroup>
+				<optgroup label="Nevada">
+					<option>Las Vegas</option>
+					<option>Henderson</option>
+					<option>North Las Vegas</option>
+					<option>Reno</option>
+					<option>Sunrise Manor</option>
+				</optgroup>
+				<optgroup label="New Mexico">
+					<option>Albuquerque</option>
+					<option>Las Cruces</option>
+					<option>Rio Rancho</option>
+					<option>Santa Fe</option>
+					<option>Roswell</option>
+				</optgroup>
+				<optgroup label="North Carolina">
+					<option>Charlotte</option>
+					<option>Raleigh</option>
+					<option>Greensboro</option>
+					<option>Winston-Salem</option>
+					<option>Durham</option>
+				</optgroup>
+				<optgroup label="North Dakota">
+					<option>Fargo</option>
+					<option>Bismarck</option>
+					<option>Grand Forks</option>
+					<option>Minot</option>
+					<option>West Fargo</option>
+				</optgroup>
+				<optgroup label="Ohio">
+					<option>Columbus</option>
+					<option>Cleveland</option>
+					<option>Cincinnati</option>
+					<option>Toledo</option>
+					<option>Akron</option>
+				</optgroup>
+				<optgroup label="Oklahoma">
+					<option>Oklahoma City</option>
+					<option>Tulsa</option>
+					<option>Norman</option>
+					<option>Broken Arrow</option>
+					<option>Lawton</option>
+				</optgroup>
+				<optgroup label="Oregon">
+					<option>Portland</option>
+					<option>Eugene</option>
+					<option>Salem</option>
+					<option>Gresham</option>
+					<option>Hillsboro</option>
+				</optgroup>
+				<optgroup label="Pennsylvania">
+					<option>Philadelphia</option>
+					<option>Pittsburgh</option>
+					<option>Allentown</option>
+					<option>Erie</option>
+					<option>Reading</option>
+				</optgroup>
+				<optgroup label="South Carolina">
+					<option>Columbia</option>
+					<option>Charleston</option>
+					<option>North Charleston</option>
+					<option>Mount Pleasant</option>
+					<option>Rock Hill</option>
+				</optgroup>
+				<optgroup label="South Dakota">
+					<option>Sioux Falls</option>
+					<option>Rapid City</option>
+					<option>Aberdeen</option>
+					<option>Brookings</option>
+					<option>Watertown</option>
+				</optgroup>
+				<optgroup label="Tennessee">
+					<option>Memphis</option>
+					<option>Nashville</option>
+					<option>Knoxville</option>
+					<option>Chattanooga</option>
+					<option>Clarksville</option>
+				</optgroup>
+				<optgroup label="Texas">
+					<option>Houston</option>
+					<option>San Antonio</option>
+					<option>Dallas</option>
+					<option>Austin</option>
+					<option>Fort Worth</option>
+				</optgroup>
+				<optgroup label="Virginia">
+					<option>Virginia Beach</option>
+					<option>Norfolk</option>
+					<option>Chesapeake</option>
+					<option>Arlington</option>
+					<option>Richmond</option>
+				</optgroup>
+				<optgroup label="Washington">
+					<option>Seattle</option>
+					<option>Spokane</option>
+					<option>Tacoma</option>
+					<option>Vancouver</option>
+					<option>Bellevue</option>
+				</optgroup>
+				<optgroup label="Wisconsin">
+					<option>Milwaukee</option>
+					<option>Madison</option>
+					<option>Green Bay</option>
+					<option>Kenosha</option>
+					<option>Racine</option>
+				</optgroup>
+			</select>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	<!-- //shop locator (popup) -->
+
+	
+	<!-- //modal -->
+	<!-- //top-header -->
+
+	<!-- header-bottom-->
+	<div class="header-bot">
+		<div class="container">
+			<div class="row header-bot_inner_wthreeinfo_header_mid">
+				<!-- logo -->
+				<div class="col-md-3 logo_agile">
+					<h1 class="text-center">
+						<a href="index.html" class="font-weight-bold font-italic">
+							<img src="images/logo2.png" alt=" " class="img-fluid">Electro Store
+						</a>
+					</h1>
+				</div>
+				<!-- //logo -->
+				<!-- header-bot -->
+				<div class="col-md-9 header mt-4 mb-md-0 mb-4">
+					<div class="row">
+						<!-- search -->
+						<div class="col-10 agileits_search">
+							<form class="form-inline" action="#" method="post">
+								<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" required>
+								<button class="btn my-2 my-sm-0" type="submit">Search</button>
+							</form>
+						</div>
+						<!-- //search -->
+						<!-- cart details -->
+						<div class="col-2 top_nav_right text-center mt-sm-0 mt-2">
+							<div class="wthreecartaits wthreecartaits2 cart cart box_1">
+								<form action="#" method="post" class="last">
+									<input type="hidden" name="cmd" value="_cart">
+									<input type="hidden" name="display" value="1">
+									<button class="btn w3view-cart" type="submit" name="submit" value="">
+										<i class="fas fa-cart-arrow-down"></i>
+									</button>
+								</form>
+							</div>
+						</div>
+						<!-- //cart details -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- shop locator (popup) -->
+	<!-- //header-bottom -->
+	<!-- navigation -->
+	<div class="navbar-inner">
+		<div class="container">
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+				<div class="agileits-navi_search">
+					<form action="#" method="post">
+					</form>
+				</div>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+				    aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav ml-auto text-center mr-xl-5">
+						<li class="nav-item mr-lg-2 mb-lg-0 mb-2">
+							<a class="nav-link" href="index.html">Home
+								<span class="sr-only">(current)</span>
+							</a>
+						</li>
+						<li class="nav-item dropdown mr-lg-2 mb-lg-0 mb-2">
+							<a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Electronics
+							</a>
+							<div class="dropdown-menu">
+								<div class="agile_inner_drop_nav_info p-4">
+									<h5 class="mb-3">Sounds</h5>
+									<div class="row">
+										<div class="col-sm-6 multi-gd-img">
+											<ul class="multi-column-dropdown">
+												<li>
+													<a href="product.html">All products</a>
+												</li>
+												
+												
+											</ul>
+										</div>
+										<div class="col-sm-6 multi-gd-img">
+											<ul class="multi-column-dropdown">
+								
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+											
+						<li class="nav-item mr-lg-2 mb-lg-0 mb-2">
+							<a class="nav-link" href="about.html">About Us</a>
+						</li>
+						<li class="nav-item mr-lg-2 mb-lg-0 mb-2">
+							<a class="nav-link" href="product.html">New Arrivals</a>
+						</li>
+						<li class="nav-item dropdown active mr-lg-2 mb-lg-0 mb-2">
+							<a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Pages & Most preferred items 
+							</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="product.html">Soundbars & Speakers</a>
+								<a class="dropdown-item" href="product2.html">Weak Audio Systems</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item active" href="single.html">Bluetooth Speaker</a>
+								<a class="dropdown-item" href="single2.html">LED Portable Bluetooth Speakers with Lights</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="checkout.html">Checkout Page</a>
+								<a class="dropdown-item" href="payment.html">Payment Page</a>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="contact.html">Contact Us</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</div>
+	
+	<div class="page-head_agile_info_w3l">
+
+	</div>
+	<!-- //banner-2 -->
+	<!-- page -->
+	<div class="services-breadcrumb">
+		<div class="agile_inner_breadcrumb">
+			<div class="container">
+				<ul class="w3_short">
+					<li>
+						<a href="index.html">Home</a>
+						<i>|</i>
+					</li>
+					<li>About Us</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- //page -->
+
+	<!-- about -->
+	<div class="welcome py-sm-5 py-4">
+		<div class="container py-xl-4 py-lg-2">
+			<!-- tittle heading -->
+			<h3 class="tittle-w3l text-center mb-lg-5 mb-sm-4 mb-3">
+				<span>A</span>bout
+				<span>U</span>s</h3>
+			<!-- //tittle heading -->
+			<div class="row">
+				<div class="col-lg-6 welcome-left">
+					<h3>Welcome</h3>
+					<h4 class="my-sm-3 my-2">The Electro Store story began in 2022, in an apartment, with 3 employees and 1 order (Sound system) delivered with 2 Dacia cars.
+
+We knew then that it is essential to anticipate the customers’ needs and pay attention to their every visit on the website. We built the platform with this state of mind.
+
+We developed constantly, we diversified the offer for our clients by adding new categories: Strong Sound System, Weak Sound System, Amplifiers, Cables for amplifiers, we increased our team and we learned a lot.</h4>
+					<p>We are here to offer our customers what matters for their lives, saving them both time and money. We know that only together we will succeed, working as a team to find simple solutions, in order to create the best shopping experience.
+
+We are not afraid to say we strive for excellence. We work with destinations and goals to reach, but we also like to have fun. From the moment we become part of the organization’s life, we enter a race for speed, innovation and development. It’s a team journey just as it is an individual one.</p>
+				</div>
+				<div class="col-lg-6 welcome-right-top mt-lg-0 mt-sm-5 mt-4">
+					<img src="images/ab.jpg" class="img-fluid" alt=" ">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //about -->
+
+	<!-- testimonials -->
+	<div class="testimonials py-sm-5 py-4">
+		<div class="container py-xl-4 py-lg-2">
+			<!-- tittle heading -->
+			<h3 class="tittle-w3l text-center text-white mb-lg-5 mb-sm-4 mb-3">
+				<span>O</span>ur
+				<span>C</span>ustomers
+				<span>S</span>ays</h3>
+			<!-- tittle heading -->
+			<div class="row gallery-index">
+				<div class="col-sm-6 med-testi-grid">
+					<div class="med-testi test-tooltip rounded p-4">
+						<p>First of all, the customer support is AWESOME! - I got my speakers in a few days after I ordered it and it turned out that one side is not working so I notified them and right then and there they replaced it with another one(as I requested because it just goes along with my computer so good , lol), no questions asked. The first one was Blue and they both look AWESOME! I love the lights.</p>
+					</div>
+					<div class="row med-testi-left my-5">
+						<div class="col-lg-2 col-3 w3ls-med-testi-img">
+							<img src="images/user.jpg" alt=" " class="img-fluid rounded-circle" />
+						</div>
+						<div class="col-lg-10 col-9 med-testi-txt">
+							<h4 class="font-weight-bold mb-lg-1 mb-2">Tyson</h4>
+							<p>Male</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 med-testi-grid">
+					<div class="med-testi test-tooltip rounded p-4">
+						<p>If you're a gamer and do not want to spend a crap ton of money for a decent headset, you might want to try this. I wear it more often now rather than my $200 dollar one. I'm telling you guys, great sound quality and the looks just makes it perfect!</p>
+					</div>
+					<div class="row med-testi-left my-5">
+						<div class="col-lg-2 col-3 w3ls-med-testi-img">
+							<img src="images/user.jpg" alt=" " class="img-fluid rounded-circle" />
+						</div>
+						<div class="col-lg-10 col-9 med-testi-txt">
+							<h4 class="font-weight-bold mb-lg-1 mb-2">Alexandra</h4>
+							<p>Female</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 med-testi-grid">
+					<div class="med-testi test-tooltip rounded p-4">
+						<p>I ordered a headset for my son who is 8. He has went through 2 expensive sets of headphones that he had gotten for his birthday in march. so I didn't order anything expensive until he can take better care of things. So far they have lasted. He uses them on xbox 1. It has a long cord that you can make shorter with a velcro strap. Only problem is the led lights don't work unless plugged into a USB port. He still loves them. He likes that the mic is rigid and his friends can hear him well. He's happy. I'm happy.</p>
+					</div>
+					<div class="row med-testi-left mt-sm-5 my-5">
+						<div class="col-lg-2 col-3 w3ls-med-testi-img">
+							<img src="images/user.jpg" alt=" " class="img-fluid rounded-circle" />
+						</div>
+						<div class="col-lg-10 col-9 med-testi-txt">
+							<h4 class="font-weight-bold mb-lg-1 mb-2">Charles</h4>
+							<p>Male</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 med-testi-grid">
+					<div class="med-testi test-tooltip rounded p-4">
+						<p>The audio quality is great, but the microphone is this devices downfall. I have to have the dB boost on 20+ to really utilize it, and even then I get some background 'buzz'. It does it in any device I use it on too. Not bad enough that I won't use it, but sometimes people say it's buzzing and I have to mute/un-mute to make it stop. I think it might just be a ground issue at the connector. Either way, it fits the budget and works.</p>
+					</div>
+					<div class="row med-testi-left mt-5">
+						<div class="col-lg-2 col-3 w3ls-med-testi-img">
+							<img src="images/user.jpg" alt=" " class="img-fluid rounded-circle" />
+						</div>
+						<div class="col-lg-10 col-9 med-testi-txt">
+							<h4 class="font-weight-bold mb-lg-1 mb-2">Jessie</h4>
+							<p>Female</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //testimonials -->
+
+	<!-- footer -->
+	<footer>
+		<div class="footer-top-first">
+			<div class="container py-md-5 py-sm-4 py-3">
+				<!-- footer first section -->
+				<h2 class="footer-top-head-w3l font-weight-bold mb-2">Electronics :</h2>
+				<p class="footer-main mb-4">
+					If you're considering a new laptop, looking for a powerful new car stereo or shopping for a new HDTV, we make it easy to
+					find exactly what you need at a price you can afford. We offer Every Day Low Prices on TVs, laptops, cell phones, tablets
+					and iPads, video games, desktop computers, cameras and camcorders, audio, video and more.</p>
+				<!-- //footer first section -->
+				<!-- footer second section -->
+				<div class="row w3l-grids-footer border-top border-bottom py-sm-4 py-3">
+					<div class="col-md-4 offer-footer">
+						<div class="row">
+							<div class="col-4 icon-fot">
+								<i class="fas fa-dolly"></i>
+							</div>
+							<div class="col-8 text-form-footer">
+								<h3>Free Shipping</h3>
+								<p>on orders over $100</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 offer-footer my-md-0 my-4">
+						<div class="row">
+							<div class="col-4 icon-fot">
+								<i class="fas fa-shipping-fast"></i>
+							</div>
+							<div class="col-8 text-form-footer">
+								<h3>Fast Delivery</h3>
+								<p>World Wide</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 offer-footer">
+						<div class="row">
+							<div class="col-4 icon-fot">
+								<i class="far fa-thumbs-up"></i>
+							</div>
+							<div class="col-8 text-form-footer">
+								<h3>Big Choice</h3>
+								<p>of Products</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- //footer second section -->
+			</div>
+		</div>
+		<!-- footer third section -->
+		<div class="w3l-middlefooter-sec">
+			<div class="container py-md-5 py-sm-4 py-3">
+				<div class="row footer-info w3-agileits-info">
+					<!-- footer categories -->
+					<div class="col-md-3 col-sm-6 footer-grids">
+						<h3 class="text-white font-weight-bold mb-3">Categories</h3>
+						<ul>
+							<li class="mb-3">
+								<a href="product.html">Strong
+                                Sound Systems</a>
+							</li>
+							<li class="mb-3">
+								<a href="product2.html">Weak
+                                Sound Systems</a>
+							</li>
+							
+						</ul>
+					</div>
+					<!-- //footer categories -->
+					<!-- quick links -->
+					<div class="col-md-3 col-sm-6 footer-grids mt-sm-0 mt-4">
+						<h3 class="text-white font-weight-bold mb-3">Quick Links</h3>
+						<ul>
+							<li class="mb-3">
+								<a href="about.html">About Us</a>
+							</li>
+							<li class="mb-3">
+								<a href="contact.html">Contact Us</a>
+							</li>
+							<li class="mb-3">
+								<a href="help.html">Help</a>
+							</li>
+							<li class="mb-3">
+								<a href="faqs.html">Faqs</a>
+							</li>
+							<li class="mb-3">
+								<a href="terms.html">Terms of use</a>
+							</li>
+							<li>
+								<a href="privacy.html">Privacy Policy</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-md-3 col-sm-6 footer-grids mt-md-0 mt-4">
+						<h3 class="text-white font-weight-bold mb-3">Get in Touch</h3>
+						<ul>
+							<li class="mb-3">
+								<i class="fas fa-map-marker"></i> St.Studentska 50, Varna</li>
+							<li class="mb-3">
+								<i class="fas fa-mobile"></i> 0986555477 </li>
+							<li class="mb-3">
+								<i class="fas fa-phone"></i> +1455523100 </li>
+							<li class="mb-3">
+								<i class="fas fa-envelope-open"></i>
+								<a href="mailto:example@mail.com"> itteam@gmail.com</a>
+							</li>
+							<li>
+								<i class="fas fa-envelope-open"></i>
+								<a href="mailto:example@mail.com"> itsupport@gmail.com</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-md-3 col-sm-6 footer-grids w3l-agileits mt-md-0 mt-4">
+					
+						<h3 class="text-white font-weight-bold mb-3">Newsletter</h3>
+						<p class="mb-3">Free Delivery on your first order!</p>
+						<form action="#" method="post">
+							
+						</form>
+						
+						<div class="footer-grids  w3l-socialmk mt-3">
+							<h3 class="text-white font-weight-bold mb-3">Follow Us on</h3>
+							<div class="social">
+								<ul>
+									<li>
+										<a class="icon fb" href="#">
+											<i class="fab fa-facebook-f"></i>
+										</a>
+									</li>
+									<li>
+										<a class="icon tw" href="#">
+											<i class="fab fa-twitter"></i>
+										</a>
+									</li>
+									<li>
+										<a class="icon gp" href="#">
+											<i class="fab fa-google-plus-g"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<!-- //social icons -->
+					</div>
+				</div>
+				<!-- //quick links -->
+			</div>
+		</div>
+		<!-- //footer third section -->
+
+		<!-- footer fourth section -->
+		
+		<!-- //footer fourth section (text) -->
+	</footer>
+	<!-- //footer -->
+	<!-- copyright -->
+	<div class="copy-right py-3">
+		<div class="container">
+			<p class="text-center text-white">© 2022 Electro Store. All rights reserved | Design by Itteam
+				
+			</p>
+		</div>
+	</div>
+	<!-- //copyright -->
+
+	<!-- js-files -->
+	<!-- jquery -->
+	<script src="js/jquery-2.2.3.min.js"></script>
+	<!-- //jquery -->
+
+	<!-- nav smooth scroll -->
+	<script>
+		$(document).ready(function () {
+			$(".dropdown").hover(
+				function () {
+					$('.dropdown-menu', this).stop(true, true).slideDown("fast");
+					$(this).toggleClass('open');
+				},
+				function () {
+					$('.dropdown-menu', this).stop(true, true).slideUp("fast");
+					$(this).toggleClass('open');
+				}
+			);
+		});
+	</script>
+	<!-- //nav smooth scroll -->
+
+	<!-- popup modal (for location)-->
+	<script src="js/jquery.magnific-popup.js"></script>
+	<script>
+		$(document).ready(function () {
+			$('.popup-with-zoom-anim').magnificPopup({
+				type: 'inline',
+				fixedContentPos: false,
+				fixedBgPos: true,
+				overflowY: 'auto',
+				closeBtnInside: true,
+				preloader: false,
+				midClick: true,
+				removalDelay: 300,
+				mainClass: 'my-mfp-zoom-in'
+			});
+
+		});
+	</script>
+	<!-- //popup modal (for location)-->
+
+	<!-- cart-js -->
+	<script src="js/minicart.js"></script>
+	<script>
+		paypals.minicarts.render(); //use only unique class names other than paypals.minicarts.Also Replace same class name in css and minicart.min.js
+
+		paypals.minicarts.cart.on('checkout', function (evt) {
+			var items = this.items(),
+				len = items.length,
+				total = 0,
+				i;
+
+			// Count the number of each item in the cart
+			for (i = 0; i < len; i++) {
+				total += items[i].get('quantity');
+			}
+
+			if (total < 3) {
+				alert('The minimum order quantity is 1. Please add more to your shopping cart before checking out');
+				evt.preventDefault();
+			}
+		});
+	</script>
+	<!-- //cart-js -->
+
+	<!-- smoothscroll -->
+	<script src="js/SmoothScroll.min.js"></script>
+	<!-- //smoothscroll -->
+
+	<!-- start-smooth-scrolling -->
+	<script src="js/move-top.js"></script>
+	<script src="js/easing.js"></script>
+	<script>
+		jQuery(document).ready(function ($) {
+			$(".scroll").click(function (event) {
+				event.preventDefault();
+
+				$('html,body').animate({
+					scrollTop: $(this.hash).offset().top
+				}, 1000);
+			});
+		});
+	</script>
+	<!-- //end-smooth-scrolling -->
+
+	<!-- smooth-scrolling-of-move-up -->
+	<script>
+		$(document).ready(function () {
+			/*
+			var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+			};
+			*/
+			$().UItoTop({
+				easingType: 'easeOutQuart'
+			});
+
+		});
+	</script>
+	<!-- //smooth-scrolling-of-move-up -->
+
+	<!-- for bootstrap working -->
+	<script src="js/bootstrap.js"></script>
+	<!-- //for bootstrap working -->
+	<!-- //js-files -->
+
+</body>
+
+</html>
